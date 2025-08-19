@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #508ce6;
+    color: #333;
+  }
+  header {
+    background-color: #508ce6;
+    color: white;
+    padding: 2rem;
+    text-align: center;}
+  header h1{
+    font-size: 5rem;
+  }
+  .logo {
+    max-width: 215px;
+  }
+  .logo2{
+    max-width: 700px;
+    padding-top: 5rem;
+  }
+  .subrayado{
+    text-decoration: underline;
+  }
+  .hero p1{
+    font-size: 1.7rem;
+  }
+  .hero {
+    padding: 5rem 1rem;
+    text-align: left;
+    background-color: #5DA399;
+    color: white;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+    padding-left: 3.5rem;
+  }
+  .hero p{
+    font-size: 1.7rem;
+  }
+  .section {
+    padding: 3rem 1rem;
+  }
+  .mejor{
+    display: flex;
+  }
+  .section:nth-child(even) {
+    background-color: #E9E5E5;
+  }
+  .section:nth-child(odd) {
+    background-color: #fff;
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .system{
+    text-align: center;
+  }
+  .feature {
+    background-color: #397367;
+    color: white;
+    border-radius: 10px;
+    padding: 3rem;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-size: 1rem;
+  }
+  .section h2{
+    font-size: 3.5rem;
+  }
+
+  .cta button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #397367;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .cta button:hover {
+    background-color: #5DA399;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: flex-start; /* Alinea verticalmente al tope */
+    gap: 20px; /* Espacio entre el logo y el texto */
+    padding: 20px;
+  }
+  .binaryroto {
+    max-width: 100px; /* Ajustá según el tamaño que quieras */
+    height: auto;
+  }
+  .footer-text {
+    flex: 1;
+  }
+  .cta {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+  }
+
+  .cta h2 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+  }
+
+  .cta p {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: #333;
+  }
+
+  .promo-text {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .promo-box {
+    background-color: #a59f9f;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 1.5rem auto 0 auto; 
+    text-align: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  .price-button {
+    background-color: #28a745;
+    color: white;
+    padding: 14px 28px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .price-button:hover {
+    background-color: #218838;
+  }
+
+  .old-price {
+    text-decoration: line-through;
+    font-size: 16px;
+    opacity: 0.7;
+  }
+
+  .new-price {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .switch-btn-container {
+    position: sticky;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+    background: transparent;
+    padding: 1rem 1.5rem 0 0;
+  }
+  .switch-btn {
+    background: #fff;
+    color: #333;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  }
+  .switch-btn:hover {
+    background: #333;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  }
+  .footer-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+  }
+.social-icon {
+  color: white;
+
+  transition: transform 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    color: #397367;
+    transform: scale(1.05);
+  }
+}
